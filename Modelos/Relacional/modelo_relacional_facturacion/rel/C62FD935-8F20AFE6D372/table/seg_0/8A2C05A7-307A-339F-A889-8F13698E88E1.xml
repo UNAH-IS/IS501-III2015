@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A2C05A7-307A-339F-A889-8F13698E88E1" name="TBL_SUCURSAL">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:01:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<abbreviation>SUCURSAL</abbreviation>
+<schemaObject>D8D9DA77-7289-4D89-92B6-B0919CEF5FE6</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_SUCURSAL" id="993185B5-F189-3D5F-BB73-FB682D0319DB">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:03:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_SUCURSAL" id="EB2769C8-D9CF-D68E-426D-6003B766A0EE">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:03:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="4241BEB3-5E57-5AAC-6527-F7603BD3B963">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:03:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_SUCURSAL" id="73617B9A-8D1B-8454-7CF8-25DFA378334E">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:03:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ADMINISTRADOR" id="A8D139AB-6877-8118-B1FC-0EB4F3F7C639">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 17:36:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD6D6B2C-4098-0E05-4E4A-D04BBFAE1B8C" referredColumn="421D0582-3DF7-65E7-A7B9-C75A1B5E530A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD34D0E5-9166-669F-BD8D-A1C0669F0517" name="TBL_SUCURSAL_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:03:04 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="993185B5-F189-3D5F-BB73-FB682D0319DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9D6D1D4-9E69-475D-9A27-1D75FFC6A356" name="CODIGO_ADMINISTRADOR_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 17:36:00 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8D139AB-6877-8118-B1FC-0EB4F3F7C639"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEEF4FB2-3D2F-9924-4443-2F19B02471DC" name="TBL_UNIDADES_MEDIDA">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:43:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<abbreviation>UNIDADES_MEDIDA</abbreviation>
+<schemaObject>D8D9DA77-7289-4D89-92B6-B0919CEF5FE6</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_UNIDAD_MEDIDA" id="577A24DB-A08D-AFF3-729E-1C1E66215AF9">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIDAD_MEDIDA" id="964D95DC-69D2-D941-C66C-77936FC49DCB">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATURA" id="3B6F7D78-3426-4BBF-7B24-2F8C9E3374CB">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A8344C3-B01E-9083-5B3E-D324FC2C0686" name="TBL_UNIDADES_MEDIDA_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="577A24DB-A08D-AFF3-729E-1C1E66215AF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

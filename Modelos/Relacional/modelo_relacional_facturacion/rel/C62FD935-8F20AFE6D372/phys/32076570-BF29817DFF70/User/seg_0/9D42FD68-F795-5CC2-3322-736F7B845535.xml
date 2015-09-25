@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="FACTURACION" directorySegmentName="seg_0" id="9D42FD68-F795-5CC2-3322-736F7B845535">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:43:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</UserOraclev10g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="USERS" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="9D42FD68-F795-5CC2-3322-736F7B845535" name="FACTURACION" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="Table" objectID="1A7B30F4-7860-2D95-F46A-5EED46D56D41" name="TBL_PROVEEDORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="1AD134F3-85C1-5B99-0359-88F5E0476E1D" name="TBL_PRODUCTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="20A4052D-C5CC-C967-F6D1-B843C189DC46" name="TBL_CLIENTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="26FF769C-8459-CD85-4CB5-CE821A56A364" name="TBL_PRODUCTOS_X_PROVEEDORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="8A2C05A7-307A-339F-A889-8F13698E88E1" name="TBL_SUCURSAL" seqName="seg_0"/>
+   <object objectType="Table" objectID="8C22637D-AAEC-E2FB-4184-5D9EC4FC63BE" name="TBL_PRODUCTOS_X_FACTURA" seqName="seg_0"/>
+   <object objectType="Table" objectID="AD8CEFAB-6CD2-A648-83E3-E950623FF317" name="TBL_CATEGORIAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="BB787A01-621C-7B21-B579-633060A48B0E" name="TBL_FACTURAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C9617497-1381-C2E7-9606-2A9E1332D45C" name="TBL_EMPLEADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="DB6922B6-726A-C8E4-5C76-083E114519A3" name="TBL_MARCAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="EEEF4FB2-3D2F-9924-4443-2F19B02471DC" name="TBL_UNIDADES_MEDIDA" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

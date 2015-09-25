@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_EMPLEADOS" directorySegmentName="seg_0" id="C9617497-1381-C2E7-9606-2A9E1332D45C">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<schemaObject>D8D9DA77-7289-4D89-92B6-B0919CEF5FE6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE_EMPLEADO" id="32FEA623-B60E-27D0-E118-BAD69F31BF6A">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_EMPLEADO" id="421D0582-3DF7-65E7-A7B9-C75A1B5E530A">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CARGO" id="64CA9CB1-F6A6-CA75-E346-8517A55E5EB1">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO_EMPLEADO" id="752A8591-E029-A6ED-858D-4DC9B1F8CB04">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_EMPLEADOS_PK" id="6BA06363-055A-48F7-BDC6-188C2D4034DD">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

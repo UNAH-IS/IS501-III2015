@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo_relacional_facturacion" id="38CA12C0-6420-80E4-E5A4-2F8230A63550" version="3.5">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-27 17:35:46 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>38CA12C0-6420-80E4-E5A4-2F8230A63550</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="EA52AAE2-9175-4287-6C3C-0AC10E4137E2">
+<designStoragePath>G:\Development\Bases de Datos\IS501-II2015\Modelos Relaciones</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

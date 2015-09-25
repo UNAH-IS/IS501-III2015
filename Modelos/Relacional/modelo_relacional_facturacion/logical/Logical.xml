@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0AB93C75-A723-A25B-3511-0C8EF21F50BE" mainViewID="55CD7A56-F4B6-6E23-6F1D-5B865C90385E">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-27 17:35:46 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

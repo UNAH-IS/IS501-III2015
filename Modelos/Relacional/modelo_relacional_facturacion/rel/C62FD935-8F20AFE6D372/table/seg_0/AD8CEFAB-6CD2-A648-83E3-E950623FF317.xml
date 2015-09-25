@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD8CEFAB-6CD2-A648-83E3-E950623FF317" name="TBL_CATEGORIAS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:51:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<abbreviation>CATEGORIAS</abbreviation>
+<schemaObject>D8D9DA77-7289-4D89-92B6-B0919CEF5FE6</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CATEGORIA" id="160C9757-C535-C0B1-E2DC-919D18519656">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA" id="84978558-D3A8-B58E-E344-78BCE809CA39">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3E77576-96C1-BC49-2A9A-656C9641FAAA" name="TBL_CATEGORIAS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="160C9757-C535-C0B1-E2DC-919D18519656"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

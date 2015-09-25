@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1AD134F3-85C1-5B99-0359-88F5E0476E1D" name="TBL_PRODUCTOS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:10:05 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<abbreviation>PRODUCTOS</abbreviation>
+<schemaObject>D8D9DA77-7289-4D89-92B6-B0919CEF5FE6</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRODUCTO" id="EFCC1C50-04B7-5FF1-C8CA-48341C127431">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:12:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_MARCA" id="B65BCBAC-BC5A-AFF7-ED91-63C12B0E3493">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9472964-B44C-887C-7DE6-BB35094868E7" referredColumn="1E371906-AEAE-92DF-38F2-B77190688183"/>
+</associations>
+</Column>
+<Column name="CODIGO_CATEGORIA" id="4D6CCA73-C254-129D-3DAE-C692623AB1E0">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91FD3393-C2C2-33B8-8D78-04D639A728F3" referredColumn="160C9757-C535-C0B1-E2DC-919D18519656"/>
+</associations>
+</Column>
+<Column name="NOMBRE_PRODUCTO" id="11FED8FF-2193-05E8-D98F-90406A10AB73">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:12:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="B1796BCA-6090-BDA9-60C0-A2DE63B5AD12">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:12:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXISTENCIA" id="A68E0CC8-287A-9DF9-B8A9-E99BAF816180">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:12:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EFF5674-517E-FEE3-322D-6C801DEB17E4" name="TBL_PRODUCTOS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 04:12:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFCC1C50-04B7-5FF1-C8CA-48341C127431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F580F1EF-77DD-5098-6455-259524095A7C" name="CODIGO_MARCA_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:31 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B65BCBAC-BC5A-AFF7-ED91-63C12B0E3493"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAFCC981-53EB-270A-7917-3FF9DA514DB3" name="CODIGO_CATEGORIA_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D6CCA73-C254-129D-3DAE-C692623AB1E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

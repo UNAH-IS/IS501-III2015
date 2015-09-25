@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_CATEGORIAS" directorySegmentName="seg_0" id="AD8CEFAB-6CD2-A648-83E3-E950623FF317">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:51:02 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>USERS</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<user>9D42FD68-F795-5CC2-3322-736F7B845535</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_CATEGORIA" id="160C9757-C535-C0B1-E2DC-919D18519656">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORIA" id="84978558-D3A8-B58E-E344-78BCE809CA39">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_CATEGORIAS_PK" id="D3E77576-96C1-BC49-2A9A-656C9641FAAA">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:53:18 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

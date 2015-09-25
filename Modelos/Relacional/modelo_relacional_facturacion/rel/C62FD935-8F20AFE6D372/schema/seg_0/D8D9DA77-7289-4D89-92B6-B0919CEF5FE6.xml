@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="FACTURACION" directorySegmentName="seg_0" id="D8D9DA77-7289-4D89-92B6-B0919CEF5FE6">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:48:47 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</SchemaObject>

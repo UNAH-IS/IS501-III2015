@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_PRODUCTOS_X_PROVEEDORES" directorySegmentName="seg_0" id="26FF769C-8459-CD85-4CB5-CE821A56A364">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<schemaObject>D8D9DA77-7289-4D89-92B6-B0919CEF5FE6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CANTIDAD" id="21307A66-634E-6F1E-44DB-BC7F119E4C99">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_PRODUCTO" id="8F9796F1-9D70-775D-8537-60F76607943E">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="940E103C-077C-F085-2104-571607338C89">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNIDAD" id="BF40F780-B0A8-BB8F-0774-62EA5127EF4D">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_PROVEEDOR" id="D5C885F6-10DC-997D-EABE-DE6C91F81724">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CODIGO_PRODUCTO_FK" id="7C8FB842-3F09-2440-60AB-070C6E721704">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CODIGO_PROVEEDOR_FK" id="894CDD30-9120-BD69-A9CB-EC6BD7A875F6">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_PRODUCTOS_X_PROVEEDORES_PK" id="98B1A2EF-B657-9691-24FE-36B5A88AE577">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

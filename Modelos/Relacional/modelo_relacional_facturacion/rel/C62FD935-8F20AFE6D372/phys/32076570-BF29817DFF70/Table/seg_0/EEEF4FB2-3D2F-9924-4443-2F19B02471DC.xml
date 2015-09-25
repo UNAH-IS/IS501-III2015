@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_UNIDADES_MEDIDA" directorySegmentName="seg_0" id="EEEF4FB2-3D2F-9924-4443-2F19B02471DC">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:43:07 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<tableSpace>USERS</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<user>9D42FD68-F795-5CC2-3322-736F7B845535</user>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ABREVIATURA" id="3B6F7D78-3426-4BBF-7B24-2F8C9E3374CB">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_UNIDAD_MEDIDA" id="577A24DB-A08D-AFF3-729E-1C1E66215AF9">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UNIDAD_MEDIDA" id="964D95DC-69D2-D941-C66C-77936FC49DCB">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_UNIDADES_MEDIDA_PK" id="7A8344C3-B01E-9083-5B3E-D324FC2C0686">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:44:55 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

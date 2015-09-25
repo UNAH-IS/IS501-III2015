@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FA97B5A-7764-B112-2C87-26B6C29EFEF7" containerWithKeyObject="26FF769C-8459-CD85-4CB5-CE821A56A364" localFKIndex="7C8FB842-3F09-2440-60AB-070C6E721704" name="CODIGO_PRODUCTO_FK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 17:22:13 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1AD134F3-85C1-5B99-0359-88F5E0476E1D</referredTableID>
+<keyObject>0EFF5674-517E-FEE3-322D-6C801DEB17E4</keyObject>
+<referredKeyID>0EFF5674-517E-FEE3-322D-6C801DEB17E4</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

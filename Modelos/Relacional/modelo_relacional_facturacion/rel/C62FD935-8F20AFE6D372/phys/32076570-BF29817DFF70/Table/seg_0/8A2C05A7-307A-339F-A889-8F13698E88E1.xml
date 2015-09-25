@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_SUCURSAL" directorySegmentName="seg_0" id="8A2C05A7-307A-339F-A889-8F13698E88E1">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<schemaObject>D8D9DA77-7289-4D89-92B6-B0919CEF5FE6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIRECCION" id="4241BEB3-5E57-5AAC-6527-F7603BD3B963">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_SUCURSAL" id="73617B9A-8D1B-8454-7CF8-25DFA378334E">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_SUCURSAL" id="993185B5-F189-3D5F-BB73-FB682D0319DB">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_ADMINISTRADOR" id="A8D139AB-6877-8118-B1FC-0EB4F3F7C639">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_SUCURSAL" id="EB2769C8-D9CF-D68E-426D-6003B766A0EE">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="CODIGO_ADMINISTRADOR_FK" id="C9D6D1D4-9E69-475D-9A27-1D75FFC6A356">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_SUCURSAL_PK" id="BD34D0E5-9166-669F-BD8D-A1C0669F0517">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 14:46:35 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

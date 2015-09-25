@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9617497-1381-C2E7-9606-2A9E1332D45C" name="TBL_EMPLEADOS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-28 22:39:50 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<schemaObject>D8D9DA77-7289-4D89-92B6-B0919CEF5FE6</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_EMPLEADO" id="421D0582-3DF7-65E7-A7B9-C75A1B5E530A">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-28 22:40:21 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_EMPLEADO" id="32FEA623-B60E-27D0-E118-BAD69F31BF6A">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 03:58:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_EMPLEADO" id="752A8591-E029-A6ED-858D-4DC9B1F8CB04">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 03:58:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGO" id="64CA9CB1-F6A6-CA75-E346-8517A55E5EB1">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-29 03:58:51 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BA06363-055A-48F7-BDC6-188C2D4034DD" name="TBL_EMPLEADOS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-05-28 22:40:22 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="421D0582-3DF7-65E7-A7B9-C75A1B5E530A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

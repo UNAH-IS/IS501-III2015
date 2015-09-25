@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DB6922B6-726A-C8E4-5C76-083E114519A3" name="TBL_MARCAS">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:49:53 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<abbreviation>MARCAS</abbreviation>
+<schemaObject>D8D9DA77-7289-4D89-92B6-B0919CEF5FE6</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MARCA" id="1E371906-AEAE-92DF-38F2-B77190688183">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:50:29 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARCA" id="09797A4D-E0EA-78A3-FDF3-B4F159C9AFE3">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:50:29 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80EB0D0E-5157-982C-BC9E-01FF683B2D31" name="TBL_MARCAS_PK">
+<createdBy>Konqueror</createdBy>
+<createdTime>2015-06-03 17:50:29 UTC</createdTime>
+<ownerDesignName>modelo_relacional_facturacion</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E371906-AEAE-92DF-38F2-B77190688183"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
