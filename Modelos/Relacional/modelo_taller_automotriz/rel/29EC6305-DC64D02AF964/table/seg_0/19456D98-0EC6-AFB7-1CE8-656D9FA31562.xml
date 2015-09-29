@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19456D98-0EC6-AFB7-1CE8-656D9FA31562" name="TBL_FACTURAS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:00:54 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FACTURA" id="D4B02511-0DC8-567B-8598-BEA3455F530E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:03:40 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FACTURA" id="B080F296-5C61-BEB4-2CE0-0CCBA2F790A2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:03:40 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPUESTO" id="7554B8B6-4E87-DFCA-FCAF-5F5006884459">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:03:40 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCUENTO" id="8D55EAC3-8735-D39E-9368-FB2C6386B446">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:03:40 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TOTAL_NETO" id="FDA4D2EC-B5D7-03A8-971A-F5BD8052D8B0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:03:40 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A89AB90-AEEB-1298-0E67-D5EFC5F6C0F3" name="TBL_FACTURAS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:03:40 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4B02511-0DC8-567B-8598-BEA3455F530E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

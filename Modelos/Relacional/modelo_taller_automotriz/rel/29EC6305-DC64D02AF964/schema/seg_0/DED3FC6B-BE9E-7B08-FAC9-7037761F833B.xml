@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="TALLER_AUTOMOTRIZ" directorySegmentName="seg_0" id="DED3FC6B-BE9E-7B08-FAC9-7037761F833B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-29 17:49:00 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</SchemaObject>

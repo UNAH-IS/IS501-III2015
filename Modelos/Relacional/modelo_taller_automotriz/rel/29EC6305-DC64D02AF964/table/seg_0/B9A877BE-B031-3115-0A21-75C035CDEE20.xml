@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9A877BE-B031-3115-0A21-75C035CDEE20" name="TBL_VEHICULOS_X_FACTURA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:41:36 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_PLACA" id="CCDF21E8-9750-570B-569D-9CDB8668788F">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:43:05 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15FD33CD-28BA-33AD-9A89-06BC884125F2" referredColumn="B312B800-0EB9-2056-93CE-B8447EA91E84"/>
+</associations>
+</Column>
+<Column name="CODIGO_FACTURA" id="02EAB8EC-02C7-567E-C22C-6FE0C74030CC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:43:42 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06DD4A4F-4ED9-72C3-CFE6-E7B7DF87D84D" referredColumn="D4B02511-0DC8-567B-8598-BEA3455F530E"/>
+</associations>
+</Column>
+<Column name="MONTO_PAGAR" id="4A06169E-9A20-D430-1B45-2C68EC3119DD">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:42:36 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64E26623-7191-33B2-6A59-65DD4A3056D8" name="TBL_VEHICULOS_X_FACTURA_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:44:42 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02EAB8EC-02C7-567E-C22C-6FE0C74030CC"/>
+<colUsage columnID="CCDF21E8-9750-570B-569D-9CDB8668788F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA8012D4-54BF-F784-CE30-078C03E2EE2D" name="VEHICULOS_X_FACTURA_PLACA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:43:05 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCDF21E8-9750-570B-569D-9CDB8668788F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95C65C5D-0284-5EE8-E78F-C6553B9C702E" name="VEHICULOS_X_FACTURA_FACTURA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:43:42 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02EAB8EC-02C7-567E-C22C-6FE0C74030CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

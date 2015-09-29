@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91089E39-0E1B-A35C-42F9-7BF4F3370426" name="TBL_DESPERFECTO_X_VEHICULO">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:27:27 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_PLACA" id="049F723A-2617-334C-B601-0AE26BC980BC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:29:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B619B5F-C9CB-3CAE-02B9-CDB2DA8F1039" referredColumn="B312B800-0EB9-2056-93CE-B8447EA91E84"/>
+</associations>
+</Column>
+<Column name="CODIGO_DESPERFECTO" id="10D1A4EA-820E-2355-E322-FF9D0FF87D8A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:30:19 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09A1CD00-4510-2CBF-7FB4-A438C14FC00A" referredColumn="B1A1D4A3-AE03-E72C-CBA5-40AF7150BD92"/>
+</associations>
+</Column>
+<Column name="CODIGO_FACTURA" id="61DA9C91-BD5A-6335-CA75-E4A6E1E4D003">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:47:44 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BECEA8CF-C59F-973E-AFBF-B816BB92AC04" referredColumn="D4B02511-0DC8-567B-8598-BEA3455F530E"/>
+</associations>
+</Column>
+<Column name="COSTO_NETO" id="2A70B1FF-7495-6F11-D4E0-2D0D352122EE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:28:15 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36B1F0B8-39A9-C233-A23C-172E9BFF17BB" name="TBL_DESPERFECTO_X_VEHICULO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:32:08 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049F723A-2617-334C-B601-0AE26BC980BC"/>
+<colUsage columnID="10D1A4EA-820E-2355-E322-FF9D0FF87D8A"/>
+<colUsage columnID="61DA9C91-BD5A-6335-CA75-E4A6E1E4D003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3D304D4-BFA7-A34D-C7D8-2BB43EB2A7F8" name="DESPER_X_VEHI_PLACA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:29:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049F723A-2617-334C-B601-0AE26BC980BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9F16279-3542-9239-9759-5AC61A1B33D2" name="DESPER_X_VEHI_DESPER_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:30:19 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10D1A4EA-820E-2355-E322-FF9D0FF87D8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54BD0657-9808-3B5D-3836-90B91095651A" name="DESPERFECTO_X_FACTURAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:47:44 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61DA9C91-BD5A-6335-CA75-E4A6E1E4D003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BECEA8CF-C59F-973E-AFBF-B816BB92AC04" containerWithKeyObject="91089E39-0E1B-A35C-42F9-7BF4F3370426" localFKIndex="54BD0657-9808-3B5D-3836-90B91095651A" name="DESPERFECTO_X_FACTURAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:47:44 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>19456D98-0EC6-AFB7-1CE8-656D9FA31562</referredTableID>
+<keyObject>5A89AB90-AEEB-1298-0E67-D5EFC5F6C0F3</keyObject>
+<referredKeyID>5A89AB90-AEEB-1298-0E67-D5EFC5F6C0F3</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

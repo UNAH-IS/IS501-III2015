@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FCEBC66-3FF0-7943-3514-8B5DC781093D" name="TBL_MARCAS_REPUESTOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 14:59:16 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MARCA_REPUESTO" id="5FE1CC24-9053-6A21-46B0-3BCF54868071">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 14:59:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_MARCA_REPUESTO" id="C3B28C78-B691-701F-C184-152C7492A2F7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 14:59:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CADA1FCA-CAA8-64F9-E69D-DAEDA6E7AD03" name="TBL_MARCAS_REPUESTOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:00:10 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FE1CC24-9053-6A21-46B0-3BCF54868071"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

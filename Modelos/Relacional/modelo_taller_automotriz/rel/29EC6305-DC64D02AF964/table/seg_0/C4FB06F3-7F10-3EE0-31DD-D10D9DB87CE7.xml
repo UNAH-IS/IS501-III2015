@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4FB06F3-7F10-3EE0-31DD-D10D9DB87CE7" name="TBL_MECANICOS_X_VEHICULOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:18:50 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_PLACA" id="F34D23B8-E50D-2EA4-067D-102490128B06">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:21:27 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C269D19-E513-1E4E-89A1-C5A9960C10A8" referredColumn="B312B800-0EB9-2056-93CE-B8447EA91E84"/>
+</associations>
+</Column>
+<Column name="CODIGO_MECANICO" id="FD4A0C8F-644D-E5B4-4B93-C9B85B617194">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:20:02 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0565ABA2-AFEF-7576-AE00-CC00F3D08A34" referredColumn="34158E10-748A-D517-1954-3B6D0548A559"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3247D53-506B-E063-87B9-2C3A4CBEB0CC" name="TBL_MECANICOS_X_VEHICULOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:24:37 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD4A0C8F-644D-E5B4-4B93-C9B85B617194"/>
+<colUsage columnID="F34D23B8-E50D-2EA4-067D-102490128B06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E586579-32D4-A530-AA57-E521718B82F8" name="MECAN_X_VEHI_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:20:02 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD4A0C8F-644D-E5B4-4B93-C9B85B617194"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="516DC21A-9EA1-8F63-4CA2-2E949100C540" name="MECAN_X_VEHI_PLACA_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:21:27 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F34D23B8-E50D-2EA4-067D-102490128B06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

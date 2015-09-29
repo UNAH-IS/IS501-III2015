@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97F23FED-40D0-25C0-1B05-4CD9154A4AF1" name="TBL_MECANICOS">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:08:07 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_MECANICO" id="34158E10-748A-D517-1954-3B6D0548A559">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:14:52 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="107FE9A1-FD9F-DE8E-1C13-09C9F52EB190" referredColumn="3B1EFBEF-3CC2-9F27-3F1A-C7AFF517A67F"/>
+</associations>
+</Column>
+<Column name="ANIOS_EXPERIENCIA_AUTOMOTRIZ" id="C498A1F9-419F-0618-3616-25D99D73D21D">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:09:31 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESPECIALIDAD" id="9989BD2F-FDB6-1A47-C49A-FD6DC2AE7000">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 15:09:31 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DAA3AE9D-B972-8A41-A39A-DE2AAFF560B0" name="TBL_MECANICOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:16:22 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34158E10-748A-D517-1954-3B6D0548A559"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6000B219-6FA5-A551-AF04-243D228BDF97" name="TBL_MECANICOS_TBL_EMPLEADOS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-28 17:14:52 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34158E10-748A-D517-1954-3B6D0548A559"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

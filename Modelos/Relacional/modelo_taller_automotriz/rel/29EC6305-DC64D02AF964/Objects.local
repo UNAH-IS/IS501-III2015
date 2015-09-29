@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="DED3FC6B-BE9E-7B08-FAC9-7037761F833B" name="TALLER_AUTOMOTRIZ" seqName="seg_0"/>
+   <object objectType="Table" objectID="D5D59E7B-B792-AFE5-99E0-36AB2767AE98" name="TBL_ADMINISTRADORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="17DF5427-4325-CDC4-5586-544F4DB4E18E" name="TBL_CARGOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="91806721-20C4-3E8B-A16C-FFF4C30D140B" name="TBL_CLIENTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="70BDFDFC-DA08-AB87-8B0F-C7B63419945C" name="TBL_COLOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="2E6B435D-8D25-FA70-F587-062299156AF9" name="TBL_DESPERFECTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="91089E39-0E1B-A35C-42F9-7BF4F3370426" name="TBL_DESPERFECTO_X_VEHICULO" seqName="seg_0"/>
+   <object objectType="Table" objectID="26D8B0CB-C0C3-DF70-1220-E0D7D8D9B6AD" name="TBL_EMPLEADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="19456D98-0EC6-AFB7-1CE8-656D9FA31562" name="TBL_FACTURAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B681B132-8C88-A84C-0CDB-F7603B886C5F" name="TBL_MARCAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="0FCEBC66-3FF0-7943-3514-8B5DC781093D" name="TBL_MARCAS_REPUESTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="97F23FED-40D0-25C0-1B05-4CD9154A4AF1" name="TBL_MECANICOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="C4FB06F3-7F10-3EE0-31DD-D10D9DB87CE7" name="TBL_MECANICOS_X_VEHICULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2F363599-5F05-D89C-C964-6C3B20785D74" name="TBL_MODELOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2A4C25B8-DBF5-2BEB-32F0-6C7FC74A1258" name="TBL_PROVEEDORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="80357B12-FEB6-97E6-8459-98F842492AB0" name="TBL_REPUESTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="D5F8F25F-E870-1FF9-D408-0B187D12B1F1" name="TBL_REPUESTOS_X_VEHICULO" seqName="seg_0"/>
+   <object objectType="Table" objectID="EC78CFC9-CB21-A2AD-ADB1-1FF41B407E18" name="TBL_SUCURSALES" seqName="seg_0"/>
+   <object objectType="Table" objectID="209CEA08-E8CA-3257-818A-5C2518CFE523" name="TBL_TIPOS_COMBUSTIBLE" seqName="seg_0"/>
+   <object objectType="Table" objectID="CE6F7978-A946-BB7A-4F52-EEB1CF66291E" name="TBL_TIPOS_TRANSMISION" seqName="seg_0"/>
+   <object objectType="Table" objectID="3AAD9EFD-236B-0B25-2D3C-AA05223CA4D9" name="TBL_TIPOS_VEHICULO" seqName="seg_0"/>
+   <object objectType="Table" objectID="7ACE82E5-D6A1-A44A-55DB-0773429F9867" name="TBL_VEHICULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B9A877BE-B031-3115-0A21-75C035CDEE20" name="TBL_VEHICULOS_X_FACTURA" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="864C0B97-78E3-45BC-6724-A46E80490823" name="ADMINISTRADORES_EMPLEADOS_FK" seqName="seg_0" containerID="D5D59E7B-B792-AFE5-99E0-36AB2767AE98" refContainerID="26D8B0CB-C0C3-DF70-1220-E0D7D8D9B6AD"/>
+   <object objectType="FKIndexAssociation" objectID="BECEA8CF-C59F-973E-AFBF-B816BB92AC04" name="DESPERFECTO_X_FACTURAS_FK" seqName="seg_0" containerID="91089E39-0E1B-A35C-42F9-7BF4F3370426" refContainerID="19456D98-0EC6-AFB7-1CE8-656D9FA31562"/>
+   <object objectType="FKIndexAssociation" objectID="09A1CD00-4510-2CBF-7FB4-A438C14FC00A" name="DESPER_X_VEHI_DESPER_FK" seqName="seg_0" containerID="91089E39-0E1B-A35C-42F9-7BF4F3370426" refContainerID="2E6B435D-8D25-FA70-F587-062299156AF9"/>
+   <object objectType="FKIndexAssociation" objectID="9B619B5F-C9CB-3CAE-02B9-CDB2DA8F1039" name="DESPER_X_VEHI_PLACA_FK" seqName="seg_0" containerID="91089E39-0E1B-A35C-42F9-7BF4F3370426" refContainerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867"/>
+   <object objectType="FKIndexAssociation" objectID="0565ABA2-AFEF-7576-AE00-CC00F3D08A34" name="MECAN_X_VEHI_FK" seqName="seg_0" containerID="C4FB06F3-7F10-3EE0-31DD-D10D9DB87CE7" refContainerID="97F23FED-40D0-25C0-1B05-4CD9154A4AF1"/>
+   <object objectType="FKIndexAssociation" objectID="6C269D19-E513-1E4E-89A1-C5A9960C10A8" name="MECAN_X_VEHI_PLACA_FK" seqName="seg_0" containerID="C4FB06F3-7F10-3EE0-31DD-D10D9DB87CE7" refContainerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867"/>
+   <object objectType="FKIndexAssociation" objectID="D595A301-EDD6-C916-607B-CE3BA09AF6F8" name="REPUESTOS_MARCAS_REP_FK" seqName="seg_0" containerID="80357B12-FEB6-97E6-8459-98F842492AB0" refContainerID="0FCEBC66-3FF0-7943-3514-8B5DC781093D"/>
+   <object objectType="FKIndexAssociation" objectID="0B4E7654-1FAC-6DC8-4868-C3BF3A78EFAA" name="REPUESTOS_PROVEEDORES_FK" seqName="seg_0" containerID="80357B12-FEB6-97E6-8459-98F842492AB0" refContainerID="2A4C25B8-DBF5-2BEB-32F0-6C7FC74A1258"/>
+   <object objectType="FKIndexAssociation" objectID="1285E504-20DA-E6C0-B197-B685DD1D664C" name="REPUESTOS_X_VEHICULO_FAC_FK" seqName="seg_0" containerID="D5F8F25F-E870-1FF9-D408-0B187D12B1F1" refContainerID="19456D98-0EC6-AFB7-1CE8-656D9FA31562"/>
+   <object objectType="FKIndexAssociation" objectID="EB1C05A0-78D4-5723-867A-062EEE4153B5" name="REPUESTOS_X_VEHICULO_PLACA_FK" seqName="seg_0" containerID="D5F8F25F-E870-1FF9-D408-0B187D12B1F1" refContainerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867"/>
+   <object objectType="FKIndexAssociation" objectID="96E149A0-9DA9-4D29-3D21-C4652DFB457E" name="REPUESTOS_X_VEHICULO_REPUES_FK" seqName="seg_0" containerID="D5F8F25F-E870-1FF9-D408-0B187D12B1F1" refContainerID="80357B12-FEB6-97E6-8459-98F842492AB0"/>
+   <object objectType="FKIndexAssociation" objectID="7F384EB4-6B7E-D000-E959-82B38C9A66AF" name="SUCURSALES_ADMINISTRADORES_FK" seqName="seg_0" containerID="EC78CFC9-CB21-A2AD-ADB1-1FF41B407E18" refContainerID="D5D59E7B-B792-AFE5-99E0-36AB2767AE98"/>
+   <object objectType="FKIndexAssociation" objectID="6671DDFD-2B91-E41A-A6B9-A02DC31EBBA9" name="TBL_EMPLEADOS_TBL_CARGOS_FK" seqName="seg_0" containerID="26D8B0CB-C0C3-DF70-1220-E0D7D8D9B6AD" refContainerID="17DF5427-4325-CDC4-5586-544F4DB4E18E"/>
+   <object objectType="FKIndexAssociation" objectID="D235101C-DDCF-4983-B8F1-0F9EF3321CDE" name="TBL_EMPLEADOS_TBL_EMPLEADOS_FK" seqName="seg_0" containerID="26D8B0CB-C0C3-DF70-1220-E0D7D8D9B6AD" refContainerID="26D8B0CB-C0C3-DF70-1220-E0D7D8D9B6AD"/>
+   <object objectType="FKIndexAssociation" objectID="107FE9A1-FD9F-DE8E-1C13-09C9F52EB190" name="TBL_MECANICOS_TBL_EMPLEADOS_FK" seqName="seg_0" containerID="97F23FED-40D0-25C0-1B05-4CD9154A4AF1" refContainerID="26D8B0CB-C0C3-DF70-1220-E0D7D8D9B6AD"/>
+   <object objectType="FKIndexAssociation" objectID="77B174F7-CF77-4197-94F2-06F38EC2F068" name="TBL_MODELOS_TBL_MARCAS_FK" seqName="seg_0" containerID="2F363599-5F05-D89C-C964-6C3B20785D74" refContainerID="B681B132-8C88-A84C-0CDB-F7603B886C5F"/>
+   <object objectType="FKIndexAssociation" objectID="19C0B6F9-5F0A-11FD-4D51-762E3256EC2F" name="TBL_REPUESTOS_TBL_MODELOS_FK" seqName="seg_0" containerID="80357B12-FEB6-97E6-8459-98F842492AB0" refContainerID="2F363599-5F05-D89C-C964-6C3B20785D74"/>
+   <object objectType="FKIndexAssociation" objectID="068EF9F3-00E0-33D5-9A6A-A82F54E096D7" name="TBL_VEHICULOS_TBL_COLOR_FK" seqName="seg_0" containerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867" refContainerID="70BDFDFC-DA08-AB87-8B0F-C7B63419945C"/>
+   <object objectType="FKIndexAssociation" objectID="5AB8D8A2-469C-F2D7-3071-828BE32B72A0" name="TBL_VEHICULOS_TBL_MODELOS_FK" seqName="seg_0" containerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867" refContainerID="2F363599-5F05-D89C-C964-6C3B20785D74"/>
+   <object objectType="FKIndexAssociation" objectID="DD59FED9-8741-9B2A-E2D4-CD0694E2973D" name="VEHICULOS_SUCURSALES_FK" seqName="seg_0" containerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867" refContainerID="EC78CFC9-CB21-A2AD-ADB1-1FF41B407E18"/>
+   <object objectType="FKIndexAssociation" objectID="DB752B2D-DB86-460E-208E-665C8802A647" name="TBL_V_TBL_C_FK" seqName="seg_0" containerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867" refContainerID="91806721-20C4-3E8B-A16C-FFF4C30D140B"/>
+   <object objectType="FKIndexAssociation" objectID="E3A1CA82-E968-D80B-4021-2FD8B8BCF754" name="VEHICULOS_TIPOS_COMBUSTIBLE_FK" seqName="seg_0" containerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867" refContainerID="209CEA08-E8CA-3257-818A-5C2518CFE523"/>
+   <object objectType="FKIndexAssociation" objectID="84A24F1F-DF3C-ED3D-960C-8FAD0B620555" name="VEHICULOS_TIPOS_TRANSMISION_FK" seqName="seg_0" containerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867" refContainerID="CE6F7978-A946-BB7A-4F52-EEB1CF66291E"/>
+   <object objectType="FKIndexAssociation" objectID="6028CA17-A7B8-740A-359C-77284A976F89" name="VEHICULOS_TIPOS_VEHICULO_FK" seqName="seg_0" containerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867" refContainerID="3AAD9EFD-236B-0B25-2D3C-AA05223CA4D9"/>
+   <object objectType="FKIndexAssociation" objectID="06DD4A4F-4ED9-72C3-CFE6-E7B7DF87D84D" name="VEHICULOS_X_FACTURA_FACTURA_FK" seqName="seg_0" containerID="B9A877BE-B031-3115-0A21-75C035CDEE20" refContainerID="19456D98-0EC6-AFB7-1CE8-656D9FA31562"/>
+   <object objectType="FKIndexAssociation" objectID="15FD33CD-28BA-33AD-9A89-06BC884125F2" name="VEHICULOS_X_FACTURA_PLACA_FK" seqName="seg_0" containerID="B9A877BE-B031-3115-0A21-75C035CDEE20" refContainerID="7ACE82E5-D6A1-A44A-55DB-0773429F9867"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
