@@ -13,7 +13,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="TIPO_TRANSMISION" id="D40A561F-6BB9-3FF6-6F9C-2FCCBF251723">
@@ -35,6 +37,18 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EF5C88C-E471-EC4D-06D2-D754FBADD463"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0CD36E4-0E8E-6ED7-4D16-1EEE85BD37C3" name="TBL_TIPO_TRANSMISIONES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<importedID>A935116C-C4BF-BD21-A55A-0298C64B1894</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0EF5C88C-E471-EC4D-06D2-D754FBADD463"/>

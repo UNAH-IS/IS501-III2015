@@ -13,7 +13,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NOMBRE_DESPERFECTO" id="816DEE69-3F4C-8E2E-7A63-C3ADB40971BB">
@@ -43,6 +45,18 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1A1D4A3-AE03-E72C-CBA5-40AF7150BD92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BB2C5F5-F910-EC93-778C-C8F5DE664E07" name="TBL_DESPERFECTOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<importedID>DF85993E-B8B2-979C-A6D0-19B39F1D4DBC</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B1A1D4A3-AE03-E72C-CBA5-40AF7150BD92"/>

@@ -13,7 +13,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="NOMBRE_EMPLEADO" id="13646388-2A90-156D-88A0-8497A60EBF62">
@@ -42,7 +44,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="SUELDO_NETO" id="9F0B9BCE-71B8-E782-6C4B-FCA92963C347">
@@ -60,7 +64,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -74,7 +80,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -89,6 +97,18 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B1EFBEF-3CC2-9F27-3F1A-C7AFF517A67F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="664AC60D-9F83-72EC-8B48-5BF0890C79E5" name="TBL_EMPLEADOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<importedID>8B115E75-1E18-3882-DDC0-111E87130F36</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="3B1EFBEF-3CC2-9F27-3F1A-C7AFF517A67F"/>

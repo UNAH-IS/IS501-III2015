@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_DESPERFECTO_X_VEHICULO" directorySegmentName="seg_0" id="91089E39-0E1B-A35C-42F9-7BF4F3370426">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>576822B3-8D6B-C72A-947D-27736D28209B</segment>
+<tableSpace>C1083D74-78AD-8D03-D3AD-C8B0BAE96357</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TBL_DESPERFECTO_X_VEHICULO_PK" id="410BB4D7-4C4B-6B4C-F301-346CEC7E01F5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<segment>40B72DD4-A7C8-13A6-93E5-67323EB192A7</segment>
+<tableSpace>C1083D74-78AD-8D03-D3AD-C8B0BAE96357</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUMERO_PLACA" id="049F723A-2617-334C-B601-0AE26BC980BC">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_DESPERFECTO" id="10D1A4EA-820E-2355-E322-FF9D0FF87D8A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COSTO_NETO" id="2A70B1FF-7495-6F11-D4E0-2D0D352122EE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_FACTURA" id="61DA9C91-BD5A-6335-CA75-E4A6E1E4D003">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DESPERFECTO_X_FACTURAS_FK" id="54BD0657-9808-3B5D-3836-90B91095651A">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DESPER_X_VEHI_DESPER_FK" id="B9F16279-3542-9239-9759-5AC61A1B33D2">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DESPER_X_VEHI_PLACA_FK" id="D3D304D4-BFA7-A34D-C7D8-2BB43EB2A7F8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_DESPERFECTO_X_VEHICULO_PK" id="36B1F0B8-39A9-C233-A23C-172E9BFF17BB">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<segment>E2857EC4-6C37-5623-2C2C-12A3977E8DF6</segment>
+<tableSpace>C1083D74-78AD-8D03-D3AD-C8B0BAE96357</tableSpace>
+<existingIndex>410BB4D7-4C4B-6B4C-F301-346CEC7E01F5</existingIndex>
+<indexSegment>E2857EC4-6C37-5623-2C2C-12A3977E8DF6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

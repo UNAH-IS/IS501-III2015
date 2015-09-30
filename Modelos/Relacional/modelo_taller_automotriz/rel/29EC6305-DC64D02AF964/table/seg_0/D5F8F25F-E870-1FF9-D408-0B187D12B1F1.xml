@@ -27,7 +27,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -40,7 +42,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -84,6 +88,20 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="390F12AE-222B-6840-C4CF-55D51E42AA1F"/>
+<colUsage columnID="39B5BA19-169A-A41A-BDB7-EF91649812FC"/>
+<colUsage columnID="DCF36ED1-98B4-3AE9-0C5B-D7B266D614B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D6D7B3C-ECC3-28D3-47C7-5209A21A624A" name="TBL_REPUESTOS_X_VEHICULO_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<importedID>E2CEBBBD-9467-FB7A-8254-2F5F5BFED849</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="390F12AE-222B-6840-C4CF-55D51E42AA1F"/>

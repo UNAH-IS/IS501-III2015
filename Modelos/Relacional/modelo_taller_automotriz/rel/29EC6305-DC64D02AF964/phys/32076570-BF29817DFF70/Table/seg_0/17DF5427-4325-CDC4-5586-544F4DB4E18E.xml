@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_CARGOS" directorySegmentName="seg_0" id="17DF5427-4325-CDC4-5586-544F4DB4E18E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>576822B3-8D6B-C72A-947D-27736D28209B</segment>
+<tableSpace>C1083D74-78AD-8D03-D3AD-C8B0BAE96357</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TBL_CARGOS_PK" id="7A58F2C6-9778-C474-1E0C-6D0CD7442CA5">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<segment>40B72DD4-A7C8-13A6-93E5-67323EB192A7</segment>
+<tableSpace>C1083D74-78AD-8D03-D3AD-C8B0BAE96357</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE_CARGO" id="184E3D14-A161-28A8-876E-C89CBE0CC17C">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUELDO_BASE" id="563687CE-8523-5D0A-0278-44AA03C2858E">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_CARGO" id="99454C03-6B74-30CA-8C11-6FED0982C4DE">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_CARGOS_PK" id="5E87E462-1194-1149-F080-906AA7552636">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<segment>E2857EC4-6C37-5623-2C2C-12A3977E8DF6</segment>
+<tableSpace>C1083D74-78AD-8D03-D3AD-C8B0BAE96357</tableSpace>
+<existingIndex>7A58F2C6-9778-C474-1E0C-6D0CD7442CA5</existingIndex>
+<indexSegment>E2857EC4-6C37-5623-2C2C-12A3977E8DF6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

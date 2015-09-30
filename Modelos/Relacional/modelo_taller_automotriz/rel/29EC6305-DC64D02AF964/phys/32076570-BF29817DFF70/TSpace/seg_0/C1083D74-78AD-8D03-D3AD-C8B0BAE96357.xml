@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="C1083D74-78AD-8D03-D3AD-C8B0BAE96357">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:42:29 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

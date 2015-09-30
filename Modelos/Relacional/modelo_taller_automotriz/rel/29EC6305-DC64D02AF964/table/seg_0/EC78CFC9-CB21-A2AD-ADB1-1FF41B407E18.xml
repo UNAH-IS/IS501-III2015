@@ -13,7 +13,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CODIGO_ADMINISTRADOR" id="6FFDADF5-5F1A-F03A-A9DB-E8199717D968">
@@ -22,7 +24,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -78,6 +82,30 @@
 <createdTime>2015-09-25 17:56:52 UTC</createdTime>
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FFDADF5-5F1A-F03A-A9DB-E8199717D968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EAC037F-7D7E-33B2-A911-690537DA28F8" name="TBL_SUCURSALES_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<importedID>7959D77B-4567-3284-2FEC-00B777965378</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF68669D-5575-F751-F28E-95E63B886A1E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="142763CF-955F-BB48-9839-30346ABC89D5" name="ADMINISTRADOR_UN">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<importedID>4E08E114-C726-6779-A4F3-65AAA7337E6F</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6FFDADF5-5F1A-F03A-A9DB-E8199717D968"/>

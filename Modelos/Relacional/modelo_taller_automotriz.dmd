@@ -5,4 +5,9 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>30D0F985-CD6F-C557-DD7C-BB0FF7A6AEE4</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7DC17EBB-4D73-32C6-1F5B-8868EB9FCF5A">
+<designStoragePath>F:\Teach UNAH\Development\DBI\IS501-III2015\Modelos\Relacional</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_REPUESTOS" directorySegmentName="seg_0" id="80357B12-FEB6-97E6-8459-98F842492AB0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>576822B3-8D6B-C72A-947D-27736D28209B</segment>
+<tableSpace>C1083D74-78AD-8D03-D3AD-C8B0BAE96357</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TBL_REPUESTOS_PK" id="4328B5F4-DC01-4F6C-CFB7-398B94E45FD0">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
+<segment>40B72DD4-A7C8-13A6-93E5-67323EB192A7</segment>
+<tableSpace>C1083D74-78AD-8D03-D3AD-C8B0BAE96357</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CODIGO_PROVEEDOR" id="35868874-BDA6-CB55-2C29-F45EB8E7181B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_MARCA_REPUESTO" id="3A9280DE-E444-EB27-AEF4-D3F5AD5E0B8B">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_REPUESTO" id="79DCBEBE-E323-AA42-3B89-5017F75C5DAA">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXISTENCIA" id="A05E45D3-A5C7-BEF0-A7FB-0A78D4DF35E7">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_REPUESTO" id="A0B0A591-DC49-8D3D-FC3D-50A734B7ECC4">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIO" id="A46DD870-5470-2D60-632F-035B6F633D38">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO_MODELO" id="FDAC9ACB-DD9B-52A7-D2D4-1A0C5EFC9437">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REPUESTOS_PROVEEDORES_FK" id="09F146E7-50F9-6A03-B2D6-F23C6BD5CC31">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REPUESTOS_MARCAS_REP_FK" id="9A444096-3874-8A0C-5B98-4EEC21A852D8">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_REPUESTOS_TBL_MODELOS_FK" id="B455855B-A1E5-F995-597F-CFFA8E6DC462">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_REPUESTOS_PK" id="001EB4CC-29F5-858C-EBD8-A92D23332997">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:07:53 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<segment>E2857EC4-6C37-5623-2C2C-12A3977E8DF6</segment>
+<tableSpace>C1083D74-78AD-8D03-D3AD-C8B0BAE96357</tableSpace>
+<existingIndex>4328B5F4-DC01-4F6C-CFB7-398B94E45FD0</existingIndex>
+<indexSegment>E2857EC4-6C37-5623-2C2C-12A3977E8DF6</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

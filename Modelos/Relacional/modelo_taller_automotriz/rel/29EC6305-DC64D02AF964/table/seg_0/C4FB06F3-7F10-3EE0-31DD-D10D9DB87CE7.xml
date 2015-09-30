@@ -27,11 +27,28 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="0565ABA2-AFEF-7576-AE00-CC00F3D08A34" referredColumn="34158E10-748A-D517-1954-3B6D0548A559"/>
+</associations>
+</Column>
+<Column name="CODIGO_FACTURA" id="9D10D917-9517-6C14-5BC5-777426F03273">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:36:28 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B56544AD-4A0F-F9B2-25F9-D9A1CC6112FF" referredColumn="D4B02511-0DC8-567B-8598-BEA3455F530E"/>
 </associations>
 </Column>
 </columns>
@@ -42,6 +59,19 @@
 <ownerDesignName>modelo_taller_automotriz</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD4A0C8F-644D-E5B4-4B93-C9B85B617194"/>
+<colUsage columnID="F34D23B8-E50D-2EA4-067D-102490128B06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61E3EB69-BC24-1F19-A432-E50EE8099AD5" name="TBL_MECANICOS_X_VEHICULOS_PK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:43:09 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<importedID>02F9A547-2E35-632E-D938-33D4997B4158</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>DED3FC6B-BE9E-7B08-FAC9-7037761F833B</schemaObject>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="FD4A0C8F-644D-E5B4-4B93-C9B85B617194"/>
@@ -66,6 +96,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F34D23B8-E50D-2EA4-067D-102490128B06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CAE4418F-AB78-5995-5D58-DE5EC9FB31BA" name="MECANICOS_X_VEH_FACTURAS_FK">
+<createdBy>Erick Marín</createdBy>
+<createdTime>2015-09-30 17:36:28 UTC</createdTime>
+<ownerDesignName>modelo_taller_automotriz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D10D917-9517-6C14-5BC5-777426F03273"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

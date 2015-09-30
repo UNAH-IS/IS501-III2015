@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="C1083D74-78AD-8D03-D3AD-C8B0BAE96357" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="User" objectID="72A95EE9-F356-852C-B0C3-0542B08477C8" name="TALLER_AUTOMOTRIZ" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="0FCEBC66-3FF0-7943-3514-8B5DC781093D" name="TBL_MARCAS_REPUESTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="17DF5427-4325-CDC4-5586-544F4DB4E18E" name="TBL_CARGOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="19456D98-0EC6-AFB7-1CE8-656D9FA31562" name="TBL_FACTURAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="209CEA08-E8CA-3257-818A-5C2518CFE523" name="TBL_TIPOS_COMBUSTIBLE" seqName="seg_0"/>
+   <object objectType="Table" objectID="26D8B0CB-C0C3-DF70-1220-E0D7D8D9B6AD" name="TBL_EMPLEADOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2A4C25B8-DBF5-2BEB-32F0-6C7FC74A1258" name="TBL_PROVEEDORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="2E6B435D-8D25-FA70-F587-062299156AF9" name="TBL_DESPERFECTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="2F363599-5F05-D89C-C964-6C3B20785D74" name="TBL_MODELOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="3AAD9EFD-236B-0B25-2D3C-AA05223CA4D9" name="TBL_TIPOS_VEHICULO" seqName="seg_0"/>
+   <object objectType="Table" objectID="70BDFDFC-DA08-AB87-8B0F-C7B63419945C" name="TBL_COLOR" seqName="seg_0"/>
+   <object objectType="Table" objectID="7ACE82E5-D6A1-A44A-55DB-0773429F9867" name="TBL_VEHICULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="80357B12-FEB6-97E6-8459-98F842492AB0" name="TBL_REPUESTOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="91089E39-0E1B-A35C-42F9-7BF4F3370426" name="TBL_DESPERFECTO_X_VEHICULO" seqName="seg_0"/>
+   <object objectType="Table" objectID="91806721-20C4-3E8B-A16C-FFF4C30D140B" name="TBL_CLIENTES" seqName="seg_0"/>
+   <object objectType="Table" objectID="97F23FED-40D0-25C0-1B05-4CD9154A4AF1" name="TBL_MECANICOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B681B132-8C88-A84C-0CDB-F7603B886C5F" name="TBL_MARCAS" seqName="seg_0"/>
+   <object objectType="Table" objectID="B9A877BE-B031-3115-0A21-75C035CDEE20" name="TBL_VEHICULOS_X_FACTURA" seqName="seg_0"/>
+   <object objectType="Table" objectID="C4FB06F3-7F10-3EE0-31DD-D10D9DB87CE7" name="TBL_MECANICOS_X_VEHICULOS" seqName="seg_0"/>
+   <object objectType="Table" objectID="CE6F7978-A946-BB7A-4F52-EEB1CF66291E" name="TBL_TIPOS_TRANSMISION" seqName="seg_0"/>
+   <object objectType="Table" objectID="D5D59E7B-B792-AFE5-99E0-36AB2767AE98" name="TBL_ADMINISTRADORES" seqName="seg_0"/>
+   <object objectType="Table" objectID="D5F8F25F-E870-1FF9-D408-0B187D12B1F1" name="TBL_REPUESTOS_X_VEHICULO" seqName="seg_0"/>
+   <object objectType="Table" objectID="EC78CFC9-CB21-A2AD-ADB1-1FF41B407E18" name="TBL_SUCURSALES" seqName="seg_0"/>
+   <object objectType="Segment" objectID="40B72DD4-A7C8-13A6-93E5-67323EB192A7" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="E35C968E-A6B5-8B01-7650-31EB6BF9C3FE" name="Storage2" seqName="seg_0"/>
+   <object objectType="Segment" objectID="576822B3-8D6B-C72A-947D-27736D28209B" name="Storage4" seqName="seg_0"/>
+   <object objectType="Segment" objectID="E2857EC4-6C37-5623-2C2C-12A3977E8DF6" name="Storage6" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
