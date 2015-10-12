@@ -3,6 +3,7 @@
 <createdBy>Erick Marín</createdBy>
 <createdTime>2015-10-02 17:26:14 UTC</createdTime>
 <ownerDesignName>modelo_relacional_trello</ownerDesignName>
+<schemaObject>EB82B015-0832-9A69-1C9F-913138F5629C</schemaObject>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
