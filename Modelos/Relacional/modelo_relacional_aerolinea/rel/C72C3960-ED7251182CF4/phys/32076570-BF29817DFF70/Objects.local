@@ -5,7 +5,6 @@
    <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
    <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
    <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
-   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
    <object objectType="Table" objectID="062A3C77-F87D-E998-7C7E-190FA637A29A" name="TBL_MODELOS" seqName="seg_0"/>
    <object objectType="Table" objectID="1D4C434A-A3EF-CD07-CF5F-1C75025237DF" name="TBL_PUNTOS_X_RUTAS" seqName="seg_0"/>
    <object objectType="Table" objectID="208C152E-531B-A6D4-5E0E-16D4D9975AC1" name="TBL_VUELOS" seqName="seg_0"/>
