@@ -1,3 +1,6 @@
+/*
+1. Mostrar todos los usuarios que no han creado ningún tablero, para dichos usuarios mostrar el nombre completo y correo, utilizar producto cartesiano con el operador (+).
+**/
 SELECT A.NOMBRE, B.CODIGO_TABLERO, B.NOMBRE_TABLERO
 FROM TBL_USUARIOS A
 LEFT JOIN TBL_TABLERO B
@@ -12,6 +15,9 @@ WHERE A.CODIGO_USUARIO = B.CODIGO_USUARIO_CREA(+)
 AND B.CODIGO_TABLERO IS NULL;
 
 
+/*
+2. Mostrar la cantidad de usuarios que se han registrado por cada red social, mostrar inclusive la cantidad de usuarios que no están registrados con redes sociales.
+*/
 SELECT *
 FROM TBL_REDES_SOCIALES;
 
@@ -22,7 +28,9 @@ LEFT JOIN TBL_REDES_SOCIALES B
 ON (A.CODIGO_RED_SOCIAL = B.CODIGO_RED_SOCIAL)
 GROUP BY NVL(B.NOMBRE_RED_SOCIAL,'NINGUNA');
 
-
+/*
+3. Consultar el usuario que ha hecho más comentarios sobre una tarjeta (El más prepotente), para este usuario mostrar el nombre completo, correo, cantidad de comentarios y cantidad de tarjetas a las que ha comentado (pista: una posible solución para este último campo es utilizar count(distinct campo))
+*/
 SELECT A.*, 
     B.NOMBRE||' '||B.APELLIDO AS NOMBRE_COMPLETO,
     B.CORREO
@@ -38,6 +46,13 @@ ON (A.CODIGO_USUARIO = B.CODIGO_USUARIO)
 WHERE ROWNUM = 1;
 
 
+/*
+4. Mostrar TODOS los usuarios con plan FREE, de dichos usuarios mostrar la siguiente información:
+? Nombre completo
+? Correo
+? Red social (En caso de estar registrado con una)
+? Cantidad de organizaciones que ha creado, mostrar 0 si no ha creado ninguna.
+*/
 SELECT *
 FROM TBL_PLANES;
 
@@ -60,6 +75,10 @@ LEFT JOIN (
 ) B
 ON (A.CODIGO_USUARIO = B.CODIGO_ADMINISTRADOR);
 
+
+
+/*5. Mostrar los usuarios que han creado más de 5 tarjetas, para estos usuarios mostrar:
+Nombre completo, correo, cantidad de tarjetas creadas*/
 SELECT A.CODIGO_USUARIO, 
       B.NOMBRE||' '||B.APELLIDO AS NOMBRE_COMPLETO,
       B.CORREO,
@@ -72,7 +91,11 @@ GROUP BY A.CODIGO_USUARIO,
       B.CORREO
 HAVING COUNT(1) > 5;
 
-
+/*6. Un usuario puede estar suscrito a tableros, listas y tarjetas, de tal forma que si hay algún cambio se le notifica en su teléfono o por teléfono, sabiendo esto, se necesita mostrar los nombres de todos los usuarios con la cantidad de suscripciones de cada tipo, en la consulta se debe mostrar:
+? Nombre completo del usuario
+? Cantidad de tableros a los cuales está suscrito
+? Cantidad de listas a las cuales está suscrito
+? Cantidad de tarjetas a las cuales está suscrito*/
 SELECT B.NOMBRE||' '||B.APELLIDO AS NOMBRE_COMPLETO,
       A.CODIGO_USUARIO,
       COUNT(DISTINCT CODIGO_LISTA) AS CANTIDAD_LISTAS,

@@ -1,4 +1,7 @@
-/*Nombre de la organización
+
+/*
+7. Consultar todas las organizaciones con los siguientes datos:
+Nombre de la organización
 ? Cantidad de usuarios registrados en cada organización
 ? Cantidad de Tableros por cada organización
 ? Cantidad de Listas asociadas a cada organización
@@ -47,6 +50,7 @@ ON (A.CODIGO_ORGANIZACION = E.CODIGO_ORGANIZACION);
 
 
 /*
+7.
 Codigo factura
 „h Nombre del plan a facturar
 „h Nombre completo del usuario
@@ -70,4 +74,5 @@ INNER JOIN TBL_PLANES B
 ON (A.CODIGO_PLAN = B.CODIGO_PLAN)
 INNER JOIN TBL_USUARIOS C
 ON (A.CODIGO_USUARIO = C.CODIGO_USUARIO);
+
 
